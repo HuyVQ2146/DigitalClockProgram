@@ -11,5 +11,5 @@ function updateClock(){
 }
 
 updateClock();
-setInterval(updateClock, 0) 
+setInterval(updateClock, 1) 
 // giống setTimeout() nma chạy liên tục
