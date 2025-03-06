@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-image: url(sun.gif) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    /* nếu có scroll bar thì giữ nguyên background */
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    backdrop-filter: blur(5px); /* lm mờ 1 chút phía sau */
+    width: 100%;
+    
+}
